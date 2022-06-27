@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="58397" started-at="2022-06-24T12:26:42 IST" finished-at="2022-06-24T12:27:41 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="58397" started-at="2022-06-24T12:26:42 IST" finished-at="2022-06-24T12:27:41 IST">
+      <class name="Academy.ValidateTitleTest">
+        <test-method status="PASS" signature="title()[pri:0, instance:Academy.ValidateTitleTest@72b6cbcc]" name="title" duration-ms="21576" started-at="2022-06-24T12:27:19 IST" finished-at="2022-06-24T12:27:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- title -->
+      </class> <!-- Academy.ValidateTitleTest -->
+      <class name="Academy.HomePageTest">
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePageTest@6737fd8f]" name="basePageNavigation" duration-ms="36740" started-at="2022-06-24T12:26:42 IST" data-provider="getData" finished-at="2022-06-24T12:27:19 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dddg@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dggdh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+      </class> <!-- Academy.HomePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
